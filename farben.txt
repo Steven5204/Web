@@ -1,0 +1,6 @@
+head: #305A72 (Blumine) -> Service Request Page Background
+Headline: #E6F8FC (Clear Skies) -> Service Request Page
+paragraph: #2B87AC (Carol) -> Enter your infos...
+body: #FFFFFF (White) -> Background
+Text: #000000 (Black) 
+Keywords in Form: #A5A5A5 (Rainy Gray) -> First Name...
