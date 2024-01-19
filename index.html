@@ -1,16 +1,71 @@
 <!DOCTYPE html>
 <html lang="en"></html>
+
 <head>
     <meta charset="UTF-8">
     <title>Service Request Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <header>
         <h1>Service Request Page</h1>
     </header>
-    <main>
+
+    <nav>
         <p>Enter your information to create a service request. Then <br> we will contact you via Email.</p>
+    </nav>
+
+    <main>
+        <section>
+            <article>
+                <p>Note: First name, last name, password and email are all <br> 
+                mandatory. The transaction ID helps our staff to allocate your <br> 
+                request prior to shippment</p>
+            </article>
+        </section>
+
+        <section>
+            <div>
+                <form id="Request">
+                    <input id="First Name" placeholder ="First Name" maxlength="30">
+                    <input id="Last Name" placeholder ="Last Name" maxlength="30">
+                    <input id="Email" placeholder ="Email" maxlength="40">
+                    <input id="Password" placeholder ="Password" maxlength="30">
+                    <input id="Transaction ID" placeholder ="Transaction ID" maxlength="30">
+                    <input id="Product ID" placeholder ="Product ID" maxlength="30">
+                    <input id="Product Name" placeholder ="Product Name" maxlength="30">
+                </form>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <form>
+                    <p>Is the equipment still working?</p>
+                    <label>
+                        <input type="radio" name="answer" value="Yes">Yes
+                    </label>
+                    <label>
+                        <input type="radio" name="answer" value="No">No
+                    </label>
+                </form>
+
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <form>
+                    <label for ="selection">Select you payment method:</label>
+                    <select id="selection" name="selection">
+                        <option value="Credit Card">Credit Card</option>
+                        <option value="PayPal">PayPal</option>
+                        <option value="Account">Account</option>
+                    </select>
+                </form>
+            </div>
+        </section>
     </main>
     <footer>
         <p> Home</p>
