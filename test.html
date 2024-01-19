@@ -3,60 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Box-Modell Formular</title>
+    <title>HTML5 Beispiel</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
         }
 
-        form {
-            width: 300px;
-            margin: 20px auto;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            background-color: #f8f8f8;
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
         }
 
-        label {
-            display: block;
-            margin-bottom: 8px;
-        }
-
-        input {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 16px;
-            box-sizing: border-box;
-        }
-
-        button {
+        nav {
             background-color: #007bff;
             color: #fff;
             padding: 10px;
-            border: none;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        article {
+            border: 1px solid #ccc;
             border-radius: 5px;
-            cursor: pointer;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        div {
+            background-color: #f8f8f8;
+            padding: 10px;
+            margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
 
-    <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+    <header>
+        <h1>Header</h1>
+    </header>
 
-        <label for="email">E-Mail:</label>
-        <input type="email" id="email" name="email" required>
+    <nav>
+        <ul>
+            <li><a href="#">Startseite</a></li>
+            <li><a href="#">Über uns</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </nav>
 
-        <label for="password">Passwort:</label>
-        <input type="password" id="password" name="password" required>
+    <main>
+        <section>
+            <h2>Section 1</h2>
+            <article>
+                <h3>Artikel 1</h3>
+                <p>Dies ist der Inhalt des Artikels.</p>
+            </article>
 
-        <button type="submit">Absenden</button>
-    </form>
+            <article>
+                <h3>Artikel 2</h3>
+                <p>Noch mehr Inhalt für einen anderen Artikel.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Section 2</h2>
+            <div>
+                <h3>Div Inhalt</h3>
+                <p>Dies ist der Inhalt des Div-Elements.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Footer © 2024</p>
+    </footer>
 
 </body>
 </html>
