@@ -31,7 +31,7 @@ form input{
 }
 
 label{
-    display:block;
+    display:flexbox;
     margin-bottom:20px;
 }
 
@@ -67,6 +67,11 @@ nav {
     font-size:x-large;
     
 }
+
+nav p{
+    padding-left:30px;
+}
+
 
 main {
     width:21cm;
