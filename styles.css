@@ -22,12 +22,15 @@ form {
     border:1px solid #0000;
     justify-items: center;
     flex-wrap:wrap;
+    
 }
 
 form input{
     width:calc(50%-10px);
     margin-right:10px;
     margin-bottom:10px;
+    height: 25px;
+    
 }
 
 label{
@@ -102,13 +105,6 @@ article {
     font-size:x-large;
 }
 
-footer {
-    background-color: #fff;
-    color: #A5A5A5;
-    padding: 10px;
-    text-align: center;
-}
- 
 div {
     background-color: #fff;
     padding: 10px;
@@ -122,6 +118,17 @@ button{
     border: 10px;
     border-radius:5px;
     cursor:pointer;
-    width:500px;
+    width:94%;
     justify-content:center;
+}
+main footer{
+    background-color: #fff;
+    color: #A5A5A5;
+    padding: 10px;
+    text-align: center;
+    font-size:medium;
+}
+footer a{
+    color:#A5A5A5;
+    margin:0 20px;
 }
