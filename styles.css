@@ -10,7 +10,7 @@ body {
     min-height:100vh;
     background-color: #fff;
     color: #333;
-    
+    border-radius:20px;
 }
 
 form {
@@ -44,6 +44,9 @@ header {
     font-size:20px;
     font-weight:bolder;
     border:5px solid #305A72;
+    border-radius:10px 10px 0 0;
+    margin-top:50px;
+
 }
 
 nav {
@@ -55,11 +58,12 @@ nav {
     border:5px solid #305A72;
     border-bottom: none;
     
+    
 }
 
 main {
     width:21cm;
-    max-width:100%;
+    max-width:1200px;
     margin: 0px;
     padding:10px;
     border:5px solid #305A72;
@@ -68,12 +72,13 @@ main {
     color:#333;
     border:5px solid #305A72;
     border-top:none;
+    border-radius:0 0 10px 10px;
+    margin-bottom:100px;
 }
 
 section {
     margin-bottom: 20px;
     justify-content: center;
-    
 }
 
 article {
