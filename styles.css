@@ -25,13 +25,31 @@ form {
     
 }
 
-form input{
-    width:calc(50%-10px);
-    margin-right:10px;
-    margin-bottom:10px;
-    height: 25px;
+#RequestContainer {
+    display:flex; 
+    width: 94%;
+    flex-direction:row;
+    background-color:#A5A5A5;
+    justify-content: space-between;
+
+}
+#Request1,
+#Request2 {
+    width: 700px; /* Anpassen der Breite nach Bedarf */
     
 }
+
+#Request1 input,
+#Request2 input {
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+
+
+    
 
 label{
     display:flexbox;
