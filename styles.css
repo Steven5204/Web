@@ -31,15 +31,16 @@ form {
     background-color:#850c0c;
     justify-content:center;
     margin:auto;
-    margin-top: 0px;;
+    margin-top: 0px;
+    margin-bottom:0px;
     box-sizing:border-box;
-   
+    padding-bottom:0px;
 }
 #Request1,
 #Request2 {
     width: 100%; /* Anpassen der Breite nach Bedarf */
     background-color:#1a79a5;
-    padding:10px 20px 10px 5px;
+    padding:10px 20px 0px 5px;
 
 }
 
@@ -59,8 +60,13 @@ form {
     justify-content:center;
     margin:auto;
     box-sizing:border-box;
+    padding-top:0px;
 }
-
+#Request3{
+    width: 100%; /* Anpassen der Breite nach Bedarf */
+    background-color:#1a79a5;
+    padding:10px 20px 0px 5px;
+}
 #Request3 input{
     background-color:#d88d1c;
     width: 100%;
