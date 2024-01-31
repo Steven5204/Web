@@ -7,9 +7,8 @@ body {
     justify-content:center;
     align-items:center;
     min-height:100vh;
-    background-color: #fff;
+    background-color: #FFFFFF;
     color: #333;
-    border-radius:20px;
     font-size:x-large;
 }
 
@@ -22,44 +21,64 @@ form {
     border:1px solid #0000;
     justify-items: center;
     flex-wrap:wrap;
-    
+    background-color:#37dbe0;
 }
 
 #RequestContainer {
     display:flex; 
-    width: 94%;
+    width: 97%;
     flex-direction:row;
-    background-color:#A5A5A5;
-    justify-content: space-between;
-
+    background-color:#850c0c;
+    justify-content:center;
+    margin:auto;
+    margin-top: 0px;;
+    box-sizing:border-box;
+   
 }
 #Request1,
 #Request2 {
-    width: 700px; /* Anpassen der Breite nach Bedarf */
-    
+    width: 100%; /* Anpassen der Breite nach Bedarf */
+    background-color:#1a79a5;
+    padding:10px 20px 10px 5px;
+
 }
 
 #Request1 input,
 #Request2 input {
+    background-color:#67e037;
     width: 100%;
+    height:28px;
     margin-bottom: 10px;
     box-sizing: border-box;
 }
+#RequestContainer2{
+    display:flex; 
+    width: 97%;
+    flex-direction:row;
+    background-color:#490505;
+    justify-content:center;
+    margin:auto;
+    box-sizing:border-box;
+}
 
-
-
-
-    
-
+#Request3 input{
+    background-color:#d88d1c;
+    width: 100%;
+    height:28px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
 label{
     display:flexbox;
     margin-bottom:20px;
+    background-color:#e0dd37;
 }
 
 select {
     width: 100%;
     padding: 8px;
     box-sizing: border-box;
+    background-color:#da37e0;
 }
 
 header {
@@ -91,6 +110,7 @@ nav {
 
 nav p{
     padding-left:30px;
+    background-color:#642a18;
 }
 
 
@@ -111,19 +131,21 @@ main {
 section {
     margin-bottom: 20px;
     justify-content: center;
+    background-color:#0d2883;
 }
 
 article {
-    width:94%;
+    /*width:94%;*/
     padding: 10px;
     margin-bottom: 10px;
     margin:20px;
     margin-top:3px;
     font-size:x-large;
+    background-color:aquamarine;
 }
 
 div {
-    background-color: #fff;
+    background-color:bisque;
     padding: 10px;
     margin-bottom: 10px;
     
