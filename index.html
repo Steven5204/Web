@@ -17,7 +17,7 @@
     </nav>
 
     <main>
-        <section>
+        <section id="Note">
             <article>
                 <p id="note"><strong>Note:</strong> First name, last name, password and email are all <br> 
                 mandatory. The transaction ID helps our staff to allocate your <br> 
@@ -46,22 +46,23 @@
         </section>
 
         <section>
-            <div>
+            <div id="Radio">
                 <form>
                     <p>Is the equipment still working?</p>
-                    <label>
-                        <input type="radio" name="answer" value="Yes">Yes
-                    </label>
-                    <label>
-                        <input type="radio" name="answer" value="No">No
-                    </label>
+                    <div class="radio-group">
+                        <label id="Yes">
+                            <input type="radio" name="answer" value="Yes">Yes
+                        </label>
+                        <label id="No">
+                            <input type="radio" name="answer" value="No">No
+                        </label>
+                    </div>
                 </form>
-
             </div>
         </section>
 
         <section>
-            <div>
+            <div id="Payment">
                 <form>
                     <label for ="selection">Select you payment method:</label>
                     <select id="selection" name="selection">
