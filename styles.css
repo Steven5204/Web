@@ -1,3 +1,18 @@
+/*Service Request Page header*/
+header {
+    width:21cm;
+    max-width:100%;
+    background-color: #305A72;
+    color: #E6F8FC;
+    padding: 10px;
+    text-align:center;
+    font-size:28px;
+    font-weight:bolder;
+    border:7px solid #305A72;
+    border-radius:10px 10px 0 0;
+    margin-top:50px;
+}
+/*the white background in whole form*/
 body {
     font-family:'Arial', sans-serif;
     margin: 0;
@@ -11,97 +26,7 @@ body {
     color: #333;
     font-size:x-large;
 }
-
-form {
-    display:flex;
-    flex-direction:column;
-    gap:10px;
-    width: 94%;
-    padding:20px;
-    border:1px solid #0000;
-    justify-items: center;
-    flex-wrap:wrap;
-    background-color:#37dbe0;
-}
-
-#RequestContainer {
-    display:flex; 
-    width: 97%;
-    flex-direction:row;
-    background-color:#850c0c;
-    justify-content:center;
-    margin:auto;
-    margin-top: 0px;
-    margin-bottom:0px;
-    box-sizing:border-box;
-    padding-bottom:0px;
-}
-#Request1,
-#Request2 {
-    width: 100%; /* Anpassen der Breite nach Bedarf */
-    background-color:#1a79a5;
-    padding:10px 20px 0px 5px;
-
-}
-
-#Request1 input,
-#Request2 input {
-    background-color:#67e037;
-    width: 100%;
-    height:28px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-}
-#RequestContainer2{
-    display:flex; 
-    width: 97%;
-    flex-direction:row;
-    background-color:#490505;
-    justify-content:center;
-    margin:auto;
-    box-sizing:border-box;
-    padding-top:0px;
-}
-#Request3{
-    width: 100%; /* Anpassen der Breite nach Bedarf */
-    background-color:#1a79a5;
-    padding:10px 20px 0px 5px;
-}
-#Request3 input{
-    background-color:#d88d1c;
-    width: 100%;
-    height:28px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-}
-label{
-    display:flexbox;
-    margin-bottom:20px;
-    background-color:#e0dd37;
-}
-
-select {
-    width: 100%;
-    padding: 8px;
-    box-sizing: border-box;
-    background-color:#da37e0;
-}
-
-header {
-    width:21cm;
-    max-width:100%;
-    background-color: #305A72;
-    color: #E6F8FC;
-    padding: 10px;
-    text-align:center;
-    font-size:28px;
-    font-weight:bolder;
-    border:7px solid #305A72;
-    border-radius:10px 10px 0 0;
-    margin-top:50px;
-
-}
-
+/*Nav Bar*/
 nav {
     width: 21cm;
     background-color: #2B87AC;
@@ -111,15 +36,13 @@ nav {
     border:7px solid #305A72;
     border-bottom: none;
     font-size:x-large;
-    
 }
-
+/*text in nav bar*/
 nav p{
-    padding-left:30px;
-    background-color:#642a18;
+    padding-left:20px;
+    background-color:#2B87AC;
 }
-
-
+/*main*/
 main {
     width:21cm;
     max-width:1200px;
@@ -133,48 +56,152 @@ main {
     border-radius:0 0 10px 10px;
     margin-bottom:100px;
 }
-
-section {
-    margin-bottom: 20px;
-    justify-content: center;
-    background-color:#0d2883;
-}
-
+/*textbox->Note:.....*/
 article {
-    /*width:94%;*/
-    padding: 10px;
-    margin-bottom: 10px;
+    width:94%;
+    padding: 0px;
+    margin-bottom: 0px;
     margin:20px;
     margin-top:3px;
     font-size:x-large;
-    background-color:aquamarine;
+    background-color:#fff;
+}
+/*form from first name to password*/
+#RequestContainer {
+    display:flex; 
+    width: 97%;
+    flex-direction:row;
+    background-color:#fff;
+    justify-content:center;
+    margin:auto;
+    margin-top: 0px;
+    margin-bottom:0px;
+    box-sizing:border-box;
+    padding-bottom:0px;
+}
+/*box around RequestContainer*/
+#Request1,
+#Request2 {
+    width: 100%; 
+    background-color:#fff;
+    padding:10px 20px 0px 5px;
+
+}
+/*input masks from RequestContainer*/
+#Request1 input,
+#Request2 input {
+    background-color:#FFFFFF;
+    width: 100%;
+    height:28px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size:x-large;
+}
+/*Container with TransactionID to Product Name*/
+#RequestContainer2{
+    display:flex; 
+    width: 97%;
+    flex-direction:row;
+    background-color:#FFFFFF;
+    justify-content:center;
+    margin:auto;
+    box-sizing:border-box;
+    padding-top:0px;
+}
+/*box around RequestContainer2*/
+#Request3{
+    width: 100%; 
+    background-color:#FFFFFF;
+    padding:10px 20px 0px 5px;
+}
+/*input masks from RequestContainer2*/
+#Request3 input{
+    background-color:#FFFFFF;
+    width: 100%;
+    height:28px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size:x-large;
+}
+/*radio-button padding*/
+#Radio {
+    background-color:#fff;
+    padding: 0px;
+    margin-bottom: 10px;
+    margin-top:0px;
+}
+/*container with radio-buttons and payment*/
+section div form {
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    width: 94%;
+    padding:0px 20px 0px 16px;
+    border:1px solid #0000;
+    justify-items: center;
+    flex-wrap:wrap;
+    background-color:#fff;
 }
 
-div {
-    background-color:bisque;
-    padding: 10px;
-    margin-bottom: 10px;
+section div form label{
+    display:flexbox;
+    flex-direction:row;
+    margin-bottom:20px;
+    background-color:#fff;
+    height:28px;
+    margin-right:10px;
+    margin-left:0px;
+    padding:0px;
     
 }
+/*aligned radio-buttons sidewise*/
+.radio-group {
+    display: flex;
+    flex-direction: row;
+}
+/*margin between Yes and No button*/
+.radio-group label {
+    margin-right: 10px; 
+}
+/*adjust height and width of radio buttons*/
+section div form input[type="radio"] {
+    width: 15px; 
+    height: 20px; 
+}
+/*right margin of payment*/
+#Payment {
+    background-color:#fff;
+    padding: 0px;
+    margin-bottom: 10px;
+    margin-top:10px;  
+}
+/*drop-down menu*/
+select {
+    width: 100%;
+    box-sizing: border-box;
+    background-color:#FFFFFF;
+    font-size:x-large;
+}
+/*Submit-button*/
 button{
     background-color:#2B87AC;
     color:#fff;
     padding:10px;
     border: 10px;
-    margin:30px;
+    margin:19px;
     cursor:pointer;
-    width:92%;
+    width:94%;
     justify-content:center;
-    height:45px;
-    font-size:large;
+    height:60px;
+    font-size:x-large;
     border:5px solid #305A72;
     transition:transform 0.1s ease;
 }
-
+/*transaction by clicking on button*/
 button:active{
     transform:translateY(2px);
 }
-
+/*footer with links in it*/
 main footer{
     background-color: #fff;
     color: #A5A5A5;
@@ -182,6 +209,7 @@ main footer{
     text-align: center;
     font-size:medium;
 }
+/*setting link color to grey*/
 footer a{
     color:#A5A5A5;
     margin:0 20px;
